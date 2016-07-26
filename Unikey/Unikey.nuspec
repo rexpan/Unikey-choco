@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>Unikey</id>
+    <version>4.2.140823</version>
+    <title>Unikey</title>
+    <authors>Pham Kim Long</authors>
+    <owners>rexpan</owners>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.en.html</licenseUrl>
+    <projectUrl>http://www.unikey.org/</projectUrl>
+    <!-- <iconUrl></iconUrl> -->
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>UniKey is a very small and easy-to-use Vietnamese keyboard for Windows.</description>
+    <summary>Vietnamese Keyboard for Windows</summary>
+    <releaseNotes>http://www.unikey.org/index.php#news</releaseNotes>
+    <tags>unikey vietnamese keyboard TELEX VNI VIQR</tags>
+  </metadata>
+</package>
