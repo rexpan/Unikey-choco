@@ -9,12 +9,4 @@ if(!(Test-Path $shortcutPath)) {
 }
 
 $targetPath = Join-Path $installDir "..\UniKeyNT.exe"
-if(Get-Command "Install-ChocolateyShortcut" -ErrorAction SilentlyContinue) { # New, compiled Choco
-    Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
-}
-else { # PowerShell Choco
-    $shell = New-Object -comObject WScript.Shell
-    $shortcut = $shell.CreateShortcut($shortcutFilePath)
-    $shortcut.TargetPath = $targetPath
-    $shortcut.Save()
-}
+Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
