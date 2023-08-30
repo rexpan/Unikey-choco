@@ -11,7 +11,7 @@ choco install unikey
 # Build
 
 ```
-cpack
+choco pack
 ```
 
 # Debug
@@ -23,5 +23,5 @@ choco install Unikey -fdvy -s '%cd%'
 # Publish
 
 ```
-choco push -s https://chocolatey.org/
+choco push -s https://push.chocolatey.org
 ```
